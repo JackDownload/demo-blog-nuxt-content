@@ -20,26 +20,23 @@
       "pre-commit": "lint-staged"
     }
   },
-  "dependencies": {
-    "@nuxt/content": "^1.11.1",
-    "nuxt": "^2.14.12",
-    "prism-themes": "1.5.0"
+ "dependencies": {
+    "@nuxt/content": "^1.14.0",
+    "@nuxtjs/gtm": "^2.4.0",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@nuxtjs/style-resources": "^1.2.1",
+    "@popperjs/core": "^2.9.3",
+    "bootstrap": "^5.1.0",
+    "bootstrap-icons": "^1.5.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.15.2",
+    "fibers": "^5.0.0",
+    "nuxt": "^2.15.7",
+    "nuxt-lazy-load": "^1.2.6"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^5.0.0",
-    "@nuxtjs/eslint-module": "^3.0.2",
-    "@nuxtjs/stylelint-module": "4.0.0",
-    "@nuxtjs/tailwindcss": "^3.4.2",
-    "babel-eslint": "10.1.0",
-    "eslint": "^7.17.0",
-    "eslint-config-prettier": "^7.1.0",
-    "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "husky": "^4.3.7",
-    "lint-staged": "^10.5.3",
-    "prettier": "^2.2.1",
-    "stylelint": "13.8.0",
-    "stylelint-config-prettier": "8.0.2",
-    "stylelint-config-standard": "20.0.0"
+    "sass": "^1.36.0",
+    "sass-loader": "^10.1.1"
   }
 }
